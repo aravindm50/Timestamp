@@ -3,7 +3,7 @@ import datetime
 import time
 import re
 timee = []
-df = pd.read_csv('Aeroqual_CO_O3.csv', sep = ',')
+df = pd.read_csv('file', sep = ',')
 for i in df['Date Time']:
     x = re.split(' ',i)
     y = x[0].split('/')
